@@ -1,18 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import Main from './componets/main/main';
-// import MyApp from './componets/myApp/MyApp'
-import App from './componets/App/App'
-// import Url from "./componets/UrlChanger/Url";
+import Calculator from "./componets/myApp/Calculator";
 
 
 ReactDOM.render(
     <div>
-        {/* <MyApp /> */}
-        <App/>
-        {/*<Url/>*/}
-        {/*<Main/>*/}
+        <Calculator/>
     </div>,
 
     document.getElementById('root')
